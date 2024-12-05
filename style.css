@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    width: 384px;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+.side__padding {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.container {
+    width: 82px;
+    height: 29px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main__img {
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px 20px 6% 6%;
+}
+
+.tag__text p {
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.2rem;
+    
+}
+
+.tag__text p, .user__content p {
+    font-family: "Figtree";
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: hsl(0, 0%, 7%);
+}
+
+.timestamp__text p {
+    font-family: "Figtree";
+    font-weight: medium;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: hsl(0, 0%, 7%);
+}
+
+.header__text {
+    margin-top: -15px;
+}
+
+.header__text p {
+    font-family: "Figtree";
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: hsl(0, 0%, 7%);
+}
+
+.description__text {
+    font-family: "Figtree";
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: hsl(0, 0%, 42%);
+    margin-top: -10px;
+}
+
+.user__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.user__img {
+    width: 32px;
+    height: 32px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    padding: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.main__content:hover .header__text p {
+    color: hsl(47, 88%, 63%); 
+    transition: color 0.75s ease-in-out;
+}
+
+.main__content:hover, 
+.main__content:focus {
+    box-shadow: 16px 16px hsl(0, 0%, 7%);
+    transition: color 0.75s ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    main {
+        width: 327px;
+        height: 501px;
+    }
+}

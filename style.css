@@ -79,6 +79,7 @@ main {
     line-height: 150%;
     letter-spacing: 0px;
     color: hsl(0, 0%, 7%);
+    transition: color 0.5s ease-in-out;
 }
 
 .description__text {
@@ -112,15 +113,17 @@ main {
     color: hsl(228, 45%, 44%); 
 }
 
+.main__content {
+    transition: color 0.5s ease;
+}
+
 .main__content:hover .header__text p {
     color: hsl(47, 88%, 63%); 
-    transition: color 0.75s ease-in-out;
 }
 
 .main__content:hover, 
 .main__content:focus {
     box-shadow: 16px 16px hsl(0, 0%, 7%);
-    transition: color 0.75s ease-in-out;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

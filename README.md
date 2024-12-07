@@ -23,8 +23,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/AravindM817/Blog-preview-card__Frontend-Mentor)
+- Live Site URL: [magical-whale-603ccf](https://magical-whale-603ccf.netlify.app/)
 
 ## My process
 
